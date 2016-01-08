@@ -18,7 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yW8-eW-F7r">
-                                <rect key="frame" x="280.5" y="290" width="39" height="20.5"/>
+                                <rect key="frame" x="280" y="290" width="39" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9J-wF-af1">
+                                <rect key="frame" x="265" y="319.5" width="71" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -27,12 +33,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yW8-eW-F7r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8fs-PC-S5e"/>
+                            <constraint firstItem="yW8-eW-F7r" firstAttribute="top" secondItem="z9J-wF-af1" secondAttribute="bottom" constant="-50" id="WXB-8Z-1YG"/>
                             <constraint firstItem="yW8-eW-F7r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bsp-qX-TRK"/>
+                            <constraint firstItem="z9J-wF-af1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zCb-tt-Bim"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="345" y="285"/>
         </scene>
     </scenes>
 </document>
